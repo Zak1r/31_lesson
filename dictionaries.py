@@ -76,5 +76,17 @@
 # print(calculator(1, 5, 'divide'))
 
 
+import re
 
+def isCyrillic(text):
+    return bool(re.search(''))
 
+points_en = {
+    1: 'A, E, I, O, U, L, N, S, T, R',
+    2: 'D, G',
+    3: 'B, C, M, P',
+    4: 'F, H, V, W, Y',
+    5: 'K',
+    8: 'J, X',
+    10: 'Q, Z',
+}
